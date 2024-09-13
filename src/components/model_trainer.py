@@ -27,7 +27,7 @@ from src.utils import save_object,evaluate_models
 
 @dataclass
 class ModelTrainerConfig:
-    trained_model_file_path = os.path.join(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')),'artifacts',"proprocessor.pkl")
+    trained_model_file_path = os.path.join(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')),'artifacts',"model.pkl")
     
     
 class ModelTrainer:

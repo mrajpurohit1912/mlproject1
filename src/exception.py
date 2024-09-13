@@ -28,7 +28,8 @@
 
 
 import sys
-from logger import logging
+#from logger import logging
+from src.logger import logging
 import os
 
 def error_message_detail(error, error_detail:sys):
